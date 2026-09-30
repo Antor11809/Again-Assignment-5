@@ -17,7 +17,8 @@ const handleRemoveAll = () => {
 };
     return (
         <div className="border border-amber-400 px-4 bg-amber-100">
-            your stack
+            Your stack
+            <p>{selectedTech.length} Technologies Selected</p>
           {selectedTech.map((tech) => (
   <div key={tech}>{tech}
     <button className="ml-5" onClick={() => handleRemove(tech)}>

@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <div>
 
-      <div className="flex container mx-auto mt-35 ml-35">
+      <div className="flex container mx-auto mt-35 ml-28">
 
         <div className="container mx-auto">
 

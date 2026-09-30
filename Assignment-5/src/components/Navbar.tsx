@@ -2,7 +2,7 @@ import icon from "../assets/logo-text.png"
 
 const nav = () => {
     return (
-      <nav>
+      <nav className="sticky top-0 z-50 bg-white">
     <div  className="flex justify-center items-center container mx-auto px-10 mt-5 sticky top-0 z-50 bg-white ">
      <div className="mr-50">
            
