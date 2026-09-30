@@ -5,6 +5,7 @@ type Props = {
   setSelectedTech: Dispatch<SetStateAction<string[]>>;
 };
 const SelectedStack = ({ selectedTech, setSelectedTech }: Props) => {
+
     const handleRemove = (tech: string) => {
   setSelectedTech((prev) =>
     prev.filter((item) => item !== tech)
@@ -15,18 +16,19 @@ const handleRemoveAll = () => {
   setSelectedTech([]);
 };
     return (
-        <div>
+        <div className="border border-amber-400 px-4 bg-amber-100">
             your stack
           {selectedTech.map((tech) => (
   <div key={tech}>{tech}
-    <button onClick={() => handleRemove(tech)}>
-          Remove
+    <button className="ml-5" onClick={() => handleRemove(tech)}>
+          x
         </button>
-        <button onClick={handleRemoveAll}>
-  Remove All
-</button>
+   
         </div>
 ))}
+<button   className="block mt-4" onClick={handleRemoveAll}>
+  Remove All
+</button>
         </div>
     );
 };
