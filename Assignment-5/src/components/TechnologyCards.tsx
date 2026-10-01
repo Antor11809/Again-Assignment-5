@@ -192,8 +192,10 @@ const TechnologyCards = ({ setSelectedTech }: Props) => {
               <div className="flex justify-between items-center mb-3">
 
                 <div className="flex items-center gap-3">
-                <Icon className={`text-3xl ${tech.iconColor}`} />
 
+            <span className={tech.iconColor}>
+  <Icon size={30} />
+</span>
                   <h3 className="text-2xl font-bold text-cyan-950">
                     {tech.name}
                   </h3>

@@ -28,13 +28,13 @@ const Hero = () => {
             </p>
           </div>
 
-          <div className="flex gap-20">
+          <div className="flex gap-15">
             <button className="px-5 py-2 rounded-md bg-gradient-to-r from-cyan-700 to-purple-700 text-white">
-              Explore technologies
+              Explore Technologies
             </button>
 
-            <button className="px-8 py-2 border border-amber-200">
-              Learn more
+            <button className="px-8 py-2 text-cyan-800 text-sm font-medium border border-gray-300">
+              Learn More
             </button>
           </div>
 

@@ -16,33 +16,33 @@ const Footer = () => {
           </p>
 
           <p className="text-cyan-700 font-semibold">
-            GitHub Twitter LinkedIn
+            GitHub     Twitter     LinkedIn
           </p>
         </div>
 
         <div>
           <ul>
             <li className="mb-3 font-semibold">PRODUCT</li>
-            <li className="mb-3 text-cyan-700">Home</li>
-            <li className="mb-3 text-gray-600">Technologies</li>
-            <li className="mb-3 text-gray-700">Projects</li>
+            <li className="mb-3 text-cyan-700 text-sm">Home</li>
+            <li className="mb-3 text-gray-600 text-sm">Technologies</li>
+            <li className="mb-3 text-gray-700 text-sm">Projects</li>
           </ul>
         </div>
 
         <div>
           <ul>
             <li className="mb-3 font-semibold">COMPANY</li>
-            <li className="text-gray-600 mb-3">About</li>
-            <li className="text-purple-700 mb-3">Contact</li>
-            <li className="text-gray-600 mb-3">Services</li>
+            <li className="text-gray-600 mb-3 text-sm">About</li>
+            <li className="text-red-700 mb-3 text-sm">Contact</li>
+            <li className="text-amber-900 mb-3 text-sm">Services</li>
           </ul>
         </div>
 
         <div>
           <ul>
             <li className="mb-3 font-semibold">LEGAL</li>
-            <li className="text-purple-700 mb-3">Privacy Policy</li>
-            <li className="text-gray-600 mb-3">Terms of Services</li>
+            <li className="text-fuchsia-900 mb-3 text-sm">Privacy Policy</li>
+            <li className="text-purple-700 mb-3 text-sm">Terms of Services</li>
           </ul>
         </div>
 
