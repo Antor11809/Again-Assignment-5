@@ -4,6 +4,7 @@ import TechnologyCards from "./components/TechnologyCards"
 import SelectedStack from "./components/SelectedStack";
 import { useState } from "react";
 import { Toaster } from "react-hot-toast";
+import Footer from "./components/Footer";
 
 function App() {
  
@@ -28,6 +29,7 @@ return (
       </div>
 
     </div>
+    <Footer/>
   </>
 );
 }

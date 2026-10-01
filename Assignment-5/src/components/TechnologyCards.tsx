@@ -239,7 +239,7 @@ const TechnologyCards = ({ setSelectedTech }: Props) => {
                     return [...prev, tech.name];
                   });
                 }}
-                className="w-full py-2 text-white font-medium bg-cyan-800 hover:bg-cyan-900 rounded-lg transition"
+                className="w-full py-2 text-white font-medium bg-gradient-to-r from-cyan-700 to-purple-700 hover:from-cyan-900 hover:to-purple-900 rounded-lg transition"
               >
                 Add to Stack
               </button>
